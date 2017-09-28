@@ -1,1 +1,1 @@
-# numpy_advanced_project
+# project_template
