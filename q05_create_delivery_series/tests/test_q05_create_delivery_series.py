@@ -1,5 +1,5 @@
 import sys, os
-sys.path.append(os.path.join(os.path.dirname(os.curdir), '..','..'))
+sys.path.append(os.path.join(os.path.dirname(os.curdir), '..'))
 
 from q01_get_total_deliveries_players.build import ipl_matches_array
 from q05_create_delivery_series.build import create_delivery_series
