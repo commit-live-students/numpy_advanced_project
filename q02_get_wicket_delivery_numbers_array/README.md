@@ -25,4 +25,4 @@ faced by a batsman before got out with following specifications.
 - Should return a numpy array of all (non unique) delivery numbers when a player got out.
 - `type : numpy array`
 
-Let's try becoming a Cricket Analyst.
+Let's try becoming a *Cricket Analyst.
