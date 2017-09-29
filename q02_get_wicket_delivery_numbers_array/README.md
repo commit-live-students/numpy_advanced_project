@@ -26,4 +26,5 @@ faced by a batsman before got out with following specifications.
 - `type : numpy array`
 
 Let's try becoming a 
+
 *Cricket Analyst.
