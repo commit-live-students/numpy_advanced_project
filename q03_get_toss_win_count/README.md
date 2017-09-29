@@ -7,10 +7,9 @@ I bet the analyst in you must have already figured out. It's been their batting,
 Mumbai Indians loves chasing as they have some excellent finishers from across the globe in their team.
 
 Being so strong while chasing, Mumbai Indians stress a lot on winning the toss.
-
 Their ideology is simple: 
 
-*Win the TOSS and win the MATCH
+Win the TOSS and win the MATCH
 
 
 One way the team can optimise its performance is by finding the number of tosses won by the team.
