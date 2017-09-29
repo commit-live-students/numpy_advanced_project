@@ -1,6 +1,6 @@
 ## How many deliveries did a given batsman bat in total?
 
-One of the major factor for analysing 
+One of the major factors in analysing 
 a batsman's performance is number of deliveries faced by him.
 Let's create a function that answers this question.
 
