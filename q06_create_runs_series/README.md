@@ -9,7 +9,7 @@ We have studied about Series in the in-class activity.
 
 In the previous task, we learned how to return a Series, let's improve on it.
 
-Make  as index the `delivery column` and return the `runs` column as a pandas series for the provided `match_code` . 
+Make `delivery` column  as the index and return the `runs` column as a pandas series for the provided `match_code` . 
 
 Write a function to make the delivery column for the match_code provided as index with following specifications.
 
