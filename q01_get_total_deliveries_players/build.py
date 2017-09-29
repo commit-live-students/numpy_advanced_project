@@ -12,8 +12,6 @@ ipl_matches_array = read_ipl_data("../data/ipl_matches_small.csv", '|S50')
 
 
 # Your Solution
-def get_total_deliveries_played(batsman):
-    batsman_array = ipl_matches_array[:, 13]
-    batsman_filter = batsman_array == batsman
-    total_deliveries = len(ipl_matches_array[batsman_filter])
-    return total_deliveries
+def get_total_deliveries_played():
+    '''write your code here'''
+    pass

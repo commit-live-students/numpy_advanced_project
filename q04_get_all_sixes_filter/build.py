@@ -7,4 +7,5 @@ import numpy as np
 
 #Your Solution
 def get_all_sixes_filter():
-    return (ipl_matches_array[:, 16].astype(np.int16) == 6)
+    '''write your code here'''
+    pass
