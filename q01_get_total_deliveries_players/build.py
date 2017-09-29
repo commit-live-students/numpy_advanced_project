@@ -12,6 +12,3 @@ ipl_matches_array = read_ipl_data("../data/ipl_matches_small.csv", '|S50')
 
 
 # Your Solution
-def get_total_deliveries_played():
-    '''write your code here'''
-    pass
