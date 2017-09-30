@@ -1,5 +1,5 @@
 import sys, os
-sys.path.append(os.path.join(os.path.dirname(os.curdir), '..'))
+sys.path.append(os.path.join(os.path.dirname(os.curdir)))
 
 from unittest import TestCase
 from q06_create_runs_series.build import create_runs_series

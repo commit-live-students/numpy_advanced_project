@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="589e51e2-696c-4726-b1ea-9ab2b8d1c0b9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q01_get_total_deliveries_players/build.py" afterPath="$PROJECT_DIR$/q01_get_total_deliveries_players/build.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q01_get_total_deliveries_players/tests/test_q01_get_total_deliveries_played.py" afterPath="$PROJECT_DIR$/q01_get_total_deliveries_players/tests/test_q01_get_total_deliveries_played.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_get_wicket_delivery_numbers_array/build.py" afterPath="$PROJECT_DIR$/q02_get_wicket_delivery_numbers_array/build.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_get_wicket_delivery_numbers_array/tests/test_q02_get_wicket_delivery_numbers_array.py" afterPath="$PROJECT_DIR$/q02_get_wicket_delivery_numbers_array/tests/test_q02_get_wicket_delivery_numbers_array.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_get_toss_win_count/build.py" afterPath="$PROJECT_DIR$/q03_get_toss_win_count/build.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_get_toss_win_count/tests/test_q03_get_toss_win_count.py" afterPath="$PROJECT_DIR$/q03_get_toss_win_count/tests/test_q03_get_toss_win_count.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_get_all_sixes_filter/build.py" afterPath="$PROJECT_DIR$/q04_get_all_sixes_filter/build.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_get_all_sixes_filter/tests/test_q04_get_all_sixes_filter.py" afterPath="$PROJECT_DIR$/q04_get_all_sixes_filter/tests/test_q04_get_all_sixes_filter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q05_create_delivery_series/build.py" afterPath="$PROJECT_DIR$/q05_create_delivery_series/build.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q05_create_delivery_series/tests/test_q05_create_delivery_series.py" afterPath="$PROJECT_DIR$/q05_create_delivery_series/tests/test_q05_create_delivery_series.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q06_create_runs_series/build.py" afterPath="$PROJECT_DIR$/q06_create_runs_series/build.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q06_create_runs_series/tests/test_q06_create_runs_series.py" afterPath="$PROJECT_DIR$/q06_create_runs_series/tests/test_q06_create_runs_series.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q02_get_wicket_delivery_numbers_array/build.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_q02_get_wicket_delivery_numbers_array.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q02_get_wicket_delivery_numbers_array/tests/test_q02_get_wicket_delivery_numbers_array.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="55" lean-forward="true" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q03_get_toss_win_count/build.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="61" lean-forward="false" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_q03_get_toss_win_count.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q03_get_toss_win_count/tests/test_q03_get_toss_win_count.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q04_get_all_sixes_filter/build.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="61" lean-forward="false" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_q04_get_all_sixes_filter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q04_get_all_sixes_filter/tests/test_q04_get_all_sixes_filter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_q05_create_delivery_series.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q05_create_delivery_series/tests/test_q05_create_delivery_series.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q05_create_delivery_series/build.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_q06_create_runs_series.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q06_create_runs_series/tests/test_q06_create_runs_series.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="55" lean-forward="true" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/q06_create_runs_series/build.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/q01_get_total_deliveries_players/tests/test_q01_get_total_deliveries_played.py" />
+        <option value="$PROJECT_DIR$/q01_get_total_deliveries_players/build.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/q02_get_wicket_delivery_numbers_array/build.py" />
+        <option value="$PROJECT_DIR$/q02_get_wicket_delivery_numbers_array/tests/test_q02_get_wicket_delivery_numbers_array.py" />
+        <option value="$PROJECT_DIR$/q03_get_toss_win_count/build.py" />
+        <option value="$PROJECT_DIR$/q03_get_toss_win_count/tests/test_q03_get_toss_win_count.py" />
+        <option value="$PROJECT_DIR$/q04_get_all_sixes_filter/build.py" />
+        <option value="$PROJECT_DIR$/q04_get_all_sixes_filter/tests/test_q04_get_all_sixes_filter.py" />
+        <option value="$PROJECT_DIR$/q05_create_delivery_series/tests/test_q05_create_delivery_series.py" />
+        <option value="$PROJECT_DIR$/q05_create_delivery_series/build.py" />
+        <option value="$PROJECT_DIR$/q06_create_runs_series/tests/test_q06_create_runs_series.py" />
+        <option value="$PROJECT_DIR$/q06_create_runs_series/build.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="numpy_advanced_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numpy_advanced_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numpy_advanced_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numpy_advanced_project" type="462c0819:PsiDirectoryNode" />
+              <item name="q02_get_wicket_delivery_numbers_array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numpy_advanced_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numpy_advanced_project" type="462c0819:PsiDirectoryNode" />
+              <item name="q02_get_wicket_delivery_numbers_array" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numpy_advanced_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numpy_advanced_project" type="462c0819:PsiDirectoryNode" />
+              <item name="q03_get_toss_win_count" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numpy_advanced_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numpy_advanced_project" type="462c0819:PsiDirectoryNode" />
+              <item name="q03_get_toss_win_count" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numpy_advanced_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numpy_advanced_project" type="462c0819:PsiDirectoryNode" />
+              <item name="q04_get_all_sixes_filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numpy_advanced_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numpy_advanced_project" type="462c0819:PsiDirectoryNode" />
+              <item name="q04_get_all_sixes_filter" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numpy_advanced_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numpy_advanced_project" type="462c0819:PsiDirectoryNode" />
+              <item name="q05_create_delivery_series" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numpy_advanced_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numpy_advanced_project" type="462c0819:PsiDirectoryNode" />
+              <item name="q05_create_delivery_series" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numpy_advanced_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numpy_advanced_project" type="462c0819:PsiDirectoryNode" />
+              <item name="q06_create_runs_series" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numpy_advanced_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numpy_advanced_project" type="462c0819:PsiDirectoryNode" />
+              <item name="q06_create_runs_series" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="add_unversioned_files" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="589e51e2-696c-4726-b1ea-9ab2b8d1c0b9" name="Default" comment="" />
+      <created>1506780748498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506780748498</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/q01_get_total_deliveries_players/tests/test_q01_get_total_deliveries_played.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q01_get_total_deliveries_players/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q01_get_total_deliveries_players/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q02_get_wicket_delivery_numbers_array/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q02_get_wicket_delivery_numbers_array/tests/test_q02_get_wicket_delivery_numbers_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="55" lean-forward="true" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q03_get_toss_win_count/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="61" lean-forward="false" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q03_get_toss_win_count/tests/test_q03_get_toss_win_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q04_get_all_sixes_filter/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="61" lean-forward="false" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q04_get_all_sixes_filter/tests/test_q04_get_all_sixes_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q05_create_delivery_series/tests/test_q05_create_delivery_series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q05_create_delivery_series/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q06_create_runs_series/tests/test_q06_create_runs_series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="55" lean-forward="true" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q06_create_runs_series/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
