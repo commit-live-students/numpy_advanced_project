@@ -19,6 +19,7 @@ manipulating and accessing the information needed from data structures.
 This assignment continues with the same IPL dataset we have been using. 
 Let's get our hands dirty!
 
+By completing this project you have an opportunity to win 650 points
 
 ---
 **Tip**:
