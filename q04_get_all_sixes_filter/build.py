@@ -4,8 +4,6 @@ import numpy as np
 
 #Your Solution
 def get_all_sixes_filter():
-    records_six = ipl_matches_array[ipl_matches_array[:, 16].astype(np.int16) == 6][:,[0,16]]
+    return ipl_matches_array[:,16]=='6'
 
-    a = np.vstack({tuple(row) for row in records_six})
-    return records_six[:,0]
 print(get_all_sixes_filter())
