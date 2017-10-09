@@ -12,4 +12,4 @@ def get_total_deliveries_played(batsman):
             delivery+=1
     return delivery
 
-get_total_deliveries_played('SR Tendulkar')
+get_total_deliveries_played(batsman)
