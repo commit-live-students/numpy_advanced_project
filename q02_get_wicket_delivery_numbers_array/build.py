@@ -12,12 +12,3 @@ def get_wicket_delivery_numbers_array(player):
 
     finaldeliveries = final[playerFilter]
     return finaldeliveries
-
-
-#     unique, counts = np.unique(final, return_counts=True)
-#     print unique
-#     print(counts)
-#get_wicket_delivery_numbers_array('ST Jayasuriya')
-    
-
-#Your Solution
