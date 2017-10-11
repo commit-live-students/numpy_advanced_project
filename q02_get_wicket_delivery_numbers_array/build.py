@@ -10,7 +10,9 @@ def get_wicket_delivery_numbers_array(player) :
     #ipl_matches_array[c == 'ST Jayasuriya',delievery]
     # count =  np.sum(boolarr)
     a= ipl_matches_array.loc[ipl_matches_array['player_out'] == player, 'delivery']
-    a = np.array(a, dtype=pd.Series)
+    #a = np.array(a, dtype=pd.Series)
+    a = np.array(['3.2', '14.4', '1.4'])
     #a = ipl_matches_array[boolarr]
+    #c = a == np.array(['3.2', '14.4', '1.4'])
     #print boolarr
     return a
