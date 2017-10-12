@@ -1,1 +1,0 @@
-{"stats": {"passes": 1, "skipped": 0, "encoding": "UTF-8", "errors": 0, "failures": 0, "total": 1}, "results": [{"classname": "numpy_advanced_project.q05_create_delivery_series.tests.test_q05_create_delivery_series:TestCreate_delivery_series", "type": "success", "name": "test_create_delivery_series", "time": 0.00686192512512207}]}
