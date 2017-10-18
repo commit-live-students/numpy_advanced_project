@@ -3,4 +3,8 @@ from greyatomlib.numpy_advanced.q01_get_total_deliveries_players.build import ip
 import pandas as pd
 
 
-#Your Solution
+def create_runs_series(match_code):
+    data = ipl_matches_array[ipl_matches_array[:,0]==match_code]
+    return pd.Series(data[:,16],index = data[:,11])
+
+create_runs_series('392203')
