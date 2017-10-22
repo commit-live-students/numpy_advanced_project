@@ -3,6 +3,5 @@ from greyatomlib.numpy_advanced.q01_get_total_deliveries_players.build import ip
 
 def get_toss_win_count(team = 'Mumbai Indians'):
     b = (ipl_matches_array[:,5] == team)
-    c = np.array(ipl_matches_array[:,0][b])
-    d = np.unique(c).size
-    return d
+    c = np.unique(np.array(ipl_matches_array[:,0][b])).size
+    return c
