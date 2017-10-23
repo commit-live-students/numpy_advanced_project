@@ -3,3 +3,6 @@ from greyatomlib.numpy_advanced.q01_get_total_deliveries_players.build import ip
 import numpy as np
 
 #Your Solution
+def get_all_sixes_filter():
+    l = (ipl_matches_array[:,16].astype(np.int16) == 6)
+    return l
