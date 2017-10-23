@@ -3,3 +3,7 @@ from greyatomlib.numpy_advanced.q01_get_total_deliveries_players.build import ip
 import numpy as np
 
 #Your Solution
+def get_all_sixes_filter():
+    data = ipl_matches_array
+    runs = data[:, 16]
+    return runs == '6'
