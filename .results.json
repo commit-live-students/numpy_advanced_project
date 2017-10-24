@@ -1,0 +1,1 @@
+{"stats": {"passes": 1, "skipped": 0, "encoding": "UTF-8", "errors": 0, "failures": 0, "total": 1}, "results": [{"classname": "numpy_advanced_project.q01_get_total_deliveries_players.tests.test_q01_get_total_deliveries_played:TestGet_total_deliveries_played", "type": "success", "name": "test_get_total_deliveries_played", "time": 0.00029206275939941406}]}
