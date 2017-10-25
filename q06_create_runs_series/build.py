@@ -6,6 +6,10 @@ ipl_matches_array =np.genfromtxt("/home/darshind/Workspace/code/numpy_advanced_p
 
 
 #Your Solution
-def create_delivery_series():
-     return pd.Series(ipl_matches_array[:,11])
-print create_delivery_series()
+
+def create_runs_series(match_code):
+    data = ipl_matches_array[ipl_matches_array[:,0] == match_code]
+    series = pd.Series(data[:,16], \
+                       index=data[:,11])
+    return series
+print create_runs_series(match_code = '392203')
