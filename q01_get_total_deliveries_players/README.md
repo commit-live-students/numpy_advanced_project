@@ -1,18 +1,18 @@
-## How many deliveries did a given batsman bat in total?
+# How many deliveries did a given batsman bat in total?
 
 One of the major factors in analysing 
 a batsman's performance is number of deliveries faced by him.
-Let's create a function that answers this question.
 
-Write a function to get the number of deliveries 
-faced by a batsman with following specifications.
+## Write a function `get_total_deliveries_played` that :
+- Loads the data and then access the column named as `batsman`.
+- Calculates the total no. of occurences of the particular batsman(user given) in order to give the deliveries.  
 
-**The function should**
-- Be named `get_total_deliveries_played`
-- Work on the previously created `ipl_matches_array` object
 
-## PARAMETERS
+### PARAMETERS
 - Accept one mandatory parameter named `batsman`
 
-## RETURNS
-- Number of deliveries that the given batsman played `type : int`
+### RETURNS:
+ Return | dtype | description |
+| --- | --- | --- |
+| variable | int | Number of deliveries that the given batsman played |
+
