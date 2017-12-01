@@ -1,4 +1,4 @@
-## Get the array of all delivery numbers when a given player got out
+# Get the array of all delivery numbers when a given player got out
 
 Nice work, on clearing the first hurdle.
 
@@ -7,22 +7,21 @@ Who knows you might end up becoming a Cricket Analyst!!
 
 It's important to know the average number of balls that a batsman plays.
 This goes a long way in deciding the batting order or analysing the type of cricket a batsman plays.
-
 It will help us find whether a batsman is an aggressive player or likes building his innings.
+ 
+## Write a function `get_wicket_delivery_numbers_array` that :
+- Loads the data and then access the column named as `player_out` and extracts the value where specfied player got out.
+- Extracts the values of deliveries at which the player got out.
 
-So, let's write a function to get the number of deliveries 
-faced by a batsman before got out with following specifications.
 
-**The function should**
-- Be named `get_wicket_delivery_numbers_array`
-- Work on the previously created `ipl_matches_array` object. We have already imported that for you
+### PARAMETERS:
+| Parameter | dtype | argument type | default value | description |
+| :---: | :---: | :---: | :---: | :---: |
+| player | String | compulsory |  | player which delivery no. is to be known when he got out|
 
-## PARAMETERS
-- Accept one mandatory parameter named `player` 
-- `type : str`
-
-## RETURNS
-- Should return a numpy array of all (non unique) delivery numbers when a player got out.
-- `type : numpy array`
+### RETURNS:
+| Parameter | dtype  | description |
+| :---: | :---: |:---: |
+| variable | Numpy array |  all delivery numbers when a given player got out |
 
 Let's try becoming a **Cricket Analyst**.
