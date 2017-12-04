@@ -5,3 +5,9 @@ ipl_matches_array =np.genfromtxt("data/ipl_matches_small.csv", dtype="|S50", ski
 
 # Your Solution
 
+def get_total_deliveries_played(batsman):
+    c=0
+    for i in ipl_matches_array[:,13]==batsman:
+        if i == True:
+            c=c+1
+    return c
