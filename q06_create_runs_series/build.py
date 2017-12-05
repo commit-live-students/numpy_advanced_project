@@ -4,3 +4,7 @@ import pandas as pd
 
 
 #Your Solution
+def create_runs_series(code):
+    runs=[item[16] for item in ipl_matches_array if item[0] == code]
+    delivery=[item[11] for item in ipl_matches_array if item[0] == code]
+    return pd.Series(runs,index=delivery)
