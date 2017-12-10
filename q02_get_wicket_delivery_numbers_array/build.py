@@ -6,5 +6,3 @@ def get_wicket_delivery_numbers_array (player):
     alldelv = ipl_matches_array[0:len(ipl_matches_array),[11,20]]
     wicket_delv = alldelv[alldelv[:,1] == player][:,0]
     return wicket_delv
-
-print get_wicket_delivery_numbers_array("ST Jayasuriya")
