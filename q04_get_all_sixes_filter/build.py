@@ -12,3 +12,5 @@ def get_all_sixes_filter():
             var.append(False)
     variable =np.array(var)
     return variable
+#Another way out
+#ipl_matches_array[:, 16].astype(np.int16) == 6
