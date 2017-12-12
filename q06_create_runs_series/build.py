@@ -7,7 +7,7 @@ from pandas import Series
 
 #Your Solution
 def create_runs_series(match_code):
-    match = ipl_matches_array[:, 0] == match_code
-    runs = np.array(ipl_matches_array[:, 16])[match]
-    delivery = np.array(ipl_matches_array[:, 11])[match]
-    return Series(runs, delivery)
+    code=ipl_matches_array[:,0]
+    delivery=ipl_matches_array[:,11][np.where((code==match_code))]
+    runs=ipl_matches_array[:,16][np.where((code==match_code))]
+    return Series(runs,delivery)
