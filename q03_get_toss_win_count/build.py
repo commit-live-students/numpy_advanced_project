@@ -1,13 +1,13 @@
-#Default Imports
+
 from greyatomlib.numpy_advanced.q01_get_total_deliveries_players.build import ipl_matches_array
 import numpy as np
 import pandas as pd
+from pandas import DataFrame
 
 def get_toss_win_count(team):
-    alltoss = ipl_matches_array[:,[0,5]]
-    toss_won = alltoss[alltoss[:,1] == team]
-    df = pd.DataFrame(toss_won)
-    toss_count = df.groupby(df[:,1])
-    return alltoss, toss_count
+	alltoss = DataFrame(ipl_matches_array)
+	tosswon = alltoss[alltoss[5]== team]
+	count = len(tosswon.groupby(by=0).count())
+	return count
 
 print get_toss_win_count("Mumbai Indians")
