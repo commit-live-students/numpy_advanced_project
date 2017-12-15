@@ -13,4 +13,4 @@ class TestCreate_runs_series(TestCase):
         expected = None
         # ... same code as above func
         actual = create_runs_series(match_code)
-        self.assertFalse(np.all(expected == actual))
+        self.assertFalse(np.all(expected == actual),'Expected Value does not match with the given values')
