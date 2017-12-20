@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+import pandas as
 from pandas import Series, DataFrame
 ipl_matches_array = np.genfromtxt('data/ipl_matches_small.csv', dtype='|S50', skip_header=1, delimiter=',')
 # Your Solution
