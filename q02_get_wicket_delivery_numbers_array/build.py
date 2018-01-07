@@ -1,7 +1,9 @@
-#Default Imports
+# %load q01_get_total_deliveries_players/build.py
 import numpy as np
-
-ipl_matches_array =np.genfromtxt("data/ipl_matches_small.csv", dtype="|S50", skip_header=1, delimiter=",")
-
-#Your Solution
-
+import pandas as pd
+path = 'data/ipl_matches_small.csv'
+data = pd.read_csv(path)
+def get_wicket_delivery_numbers_array(batsman):
+    a = data['delivery'][data['player_out']==batsman]
+    list1 = np.array(a,dtype='|S4')
+    return list1
