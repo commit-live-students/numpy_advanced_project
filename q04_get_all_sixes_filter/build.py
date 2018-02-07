@@ -10,4 +10,4 @@ def get_all_sixes_filter():
     sixes = np.where(ipl_matches_array[:,16]=='6',True,False)
     return sixes
 
-#print get_all_sixes_filter()
+print get_all_sixes_filter()
