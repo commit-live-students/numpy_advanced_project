@@ -10,5 +10,5 @@ def get_total_deliveries_played(batsman):
     batsman_list = zip(unique,counts)
 
     for ele in batsman_list:
-        if ele[0] == 'SR Tendulkar':
+        if ele[0] == batsman:
             return ele[1]
