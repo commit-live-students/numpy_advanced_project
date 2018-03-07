@@ -12,4 +12,3 @@ class TestGet_all_sixes_filter(TestCase):
         expected_filter = (ipl_matches_array[:, 16].astype(np.int16) == 6)
         actual_filter = get_all_sixes_filter()
         self.assertTrue(np.all(expected_filter == actual_filter),'Expected Value does not match with the given values')
-

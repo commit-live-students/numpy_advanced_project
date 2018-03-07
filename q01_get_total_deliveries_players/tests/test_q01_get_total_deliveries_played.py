@@ -7,5 +7,5 @@ from ..build import get_total_deliveries_played
 class TestGet_total_deliveries_played(TestCase):
     def test_get_total_deliveries_played(self):
 
-        tendulkar_total = get_total_deliveries_played('SR Tendulkar')
+        tendulkar_total = get_total_deliveries_played(b'SR Tendulkar')
         self.assertEqual(tendulkar_total, 84, 'Expected Value does not match with the given values')
