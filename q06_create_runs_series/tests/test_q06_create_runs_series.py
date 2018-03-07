@@ -8,7 +8,7 @@ import numpy as np
 
 class TestCreate_runs_series(TestCase):
     def test_create_runs_series(self):
-        match_code = b'392203'
+        match_code = '392203'
 
         # Mumbai Indians
         expected = None
