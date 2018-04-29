@@ -1,7 +1,10 @@
-#Default Imports
+import pandas as pd
 import numpy as np
-ipl_matches_array =np.genfromtxt("data/ipl_matches_small.csv", dtype="|S50", skip_header=1, delimiter=",")
 
-
-#Your Solution
+def get_all_sixes_filter():
+    ipl_data=pd.read_csv('./data/ipl_matches_small.csv')
+    six_or_not=np.array(ipl_data['runs']==6)
+    return six_or_not
+ipl_data=get_all_sixes_filter()
+type(ipl_data)
 
