@@ -10,6 +10,6 @@ def get_wicket_delivery_numbers_array(player):
     return deliveries
 #Your Solution
 
-get_wicket_delivery_numbers_array('player')
+get_wicket_delivery_numbers_array('ST Jayasuriya')
 
 
