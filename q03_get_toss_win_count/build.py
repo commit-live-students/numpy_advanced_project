@@ -1,7 +1,15 @@
+# %load q03_get_toss_win_count/build.py
 #Default Imports
 import numpy as np
-ipl_matches_array =np.genfromtxt("data/ipl_matches_small.csv", dtype="|S50", skip_header=1, delimiter=",")
+import pandas as pd
 
+ipl_matches_array =pd.read_csv('data/ipl_matches_small.csv')
+
+def get_toss_win_count(team):
+    return ipl_matches_array[ipl_matches_array['toss_winner'] == team]['match_code'].nunique()
 
 #Your Solution
+get_toss_win_count('Mumbai Indians')
+
+
 
