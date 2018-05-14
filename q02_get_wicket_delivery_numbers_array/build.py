@@ -3,23 +3,16 @@
 import numpy as np
 import pandas as pd
 
-ipl_matches_array =np.genfromtxt('data/ipl_matches_small.csv', dtype='|S50', skip_header=1, delimiter=',')
-
+ipl_matches_array1 =np.genfromtxt('data/ipl_matches_small.csv', dtype='|S50', skip_header=1, delimiter=',')
+ipl_matches_array=ipl_matches_array1.astype(np.str)
 #Your Solution
 def get_wicket_delivery_numbers_array(players):
-    data=pd.DataFrame(ipl_matches_array)
-    player=bytes(players,'utf8')
-    d1=data[20]
-    #print(player,data[20][21])
-    #print(np.where(d1==player))
-   
-    #print(data[d1==player][11])
-    arr=np.array(data[d1==player][11])
-    #arr=arr.astype(float)
-    #print(type(arr))
-    return(arr)
+    
+    player_out=(ipl_matches_array[:,-3]==players)
+    a=np.array(ipl_matches_array[:,11])
+    return a[player_out]
+    
 
-#get_wicket_delivery_numbers_array('ST Jayasuriya')
 
 
 
