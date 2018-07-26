@@ -24,3 +24,5 @@ One way the team can optimise its performance is by finding the number of tosses
 | Parameter | dtype  | description |
 | :---: | :---: |:---: |
 | variable | int | total no. of tosses won |
+
+**Note :Solve this Assignment using Numpy only**
