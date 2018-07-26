@@ -16,5 +16,5 @@ a batsman's performance is number of deliveries faced by him.
 | --- | --- | --- |
 | variable | int | Number of deliveries that the given batsman played |
 
-**Note  : Solve this Assignment using numpy only **
+**Note :Solve this Assignment using Numpy only**
 
