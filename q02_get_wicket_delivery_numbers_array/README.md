@@ -25,3 +25,5 @@ It will help us find whether a batsman is an aggressive player or likes building
 | variable | Numpy array |  all delivery numbers when a given player got out |
 
 Let's try becoming a **Cricket Analyst**.
+
+**Note :Solve this Assignment using Numpy only**
