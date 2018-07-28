@@ -8,9 +8,13 @@ batsman = 'SR Tendulkar'
 # Your Solution
 
 def get_total_deliveries_played(batsman):
-    df = pd.read_csv('data/ipl_matches_small.csv')
-    df1 =df.loc[df['batsman']==batsman]
-    total_deliveries_played = df1['batsman'].count().astype(np.int32)
-    return total_deliveries_played
+    a=np.array(ipl_matches_array[:, 13]).astype('str')
+    #arr_index = (a.astype('str') == batsman)
+    #a=np.array(ipl_matches_array[:, 13])
+    arr_index = (a==batsman)
+    b=a[arr_index]
+    #return len(b)
+
+
 
 
