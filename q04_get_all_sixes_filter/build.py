@@ -5,14 +5,10 @@ ipl_matches_array =np.genfromtxt('data/ipl_matches_small.csv', dtype='|S50', ski
 
 
 def get_all_sixes_filter():
-    
-   
-
-    bool_arr = np.array([x[16]==6 for x in ipl_matches_array])
+    bool_arr =ipl_matches_array[:, 16].astype(np.int16) == 6
        
     return bool_arr
 #Your Solution
-
 
 
 
