@@ -4,4 +4,7 @@ ipl_matches_array =np.genfromtxt("data/ipl_matches_small.csv", dtype="|S50", ski
 
 
 #Your Solution
-
+def get_all_sixes_filter():
+    data = ipl_matches_array
+    runs = np.array([i[16]=='6' for i in data])
+    return runs
