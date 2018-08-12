@@ -4,4 +4,10 @@ ipl_matches_array =np.genfromtxt("data/ipl_matches_small.csv", dtype="|S50", ski
 
 
 #Your Solution
+def get_all_sixes_filter():
 
+    temp = ipl_matches_array[:,16]
+    runs = temp.astype(int) > 5
+    
+
+    return runs
