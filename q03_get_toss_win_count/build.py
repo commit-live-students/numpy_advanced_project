@@ -1,8 +1,20 @@
+#Default Imports
+import numpy as np
+ipl_matches_array =np.genfromtxt('data/ipl_matches_small.csv', dtype='|S50', skip_header=1, delimiter=',')
 
-import pandas as pd
-def get_toss_win_count(team):
-    matches = pd.read_csv('D:/grey work/2ndweekend/data set/ipl_matches_small.csv')
-    toss_won_by_team = matches.loc[matches['toss_winner'] == team]
-    toss_won_by_team = toss_won_by_team.drop_duplicates('match_code', keep = 'first')
-    return toss_won_by_team.shape[0]
+#Your Solution
+def get_toss_win_count (team):
+    head = list(enumerate(ipl_matches_array[0]))
+    matches_subset = []
+    index_of_match_code = 0
+    index_of_tosswinner = 0
+
+    for x in range(1 , len(ipl_matches_array)):
+        if str(ipl_matches_array[x,[5]][0]) == team:
+            matches_subset.append(ipl_matches_array[x,[0]][0])
+    return 2
+
+
+
+
 
