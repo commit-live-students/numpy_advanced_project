@@ -9,7 +9,7 @@ def get_toss_win_count(team):
     n,j=np.unique(ipl_matches_array[i,5],return_counts=True)
     d=dict(zip(n,j))
     return (d[team])
-get_toss_win_count('Mumbai Indians')
+get_toss_win_count(b'Mumbai Indians')
 
 
 
