@@ -11,7 +11,9 @@ def get_wicket_delivery_numbers_array(player):
         if(row[20] == player):
             print(row[11])
             ball.append(row[11])
-    return type(np.array(ball))
+    nparr = np.array(ball)
+    #print(nparr.shape)
+    return nparr
 
 
 #get_wicket_delivery_numbers_array(b'ST Jayasuriya')
