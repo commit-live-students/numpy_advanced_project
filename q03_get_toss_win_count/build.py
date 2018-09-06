@@ -1,7 +1,12 @@
+# %load q03_get_toss_win_count/build.py
 #Default Imports
 import numpy as np
-ipl_matches_array =np.genfromtxt("data/ipl_matches_small.csv", dtype="|S50", skip_header=1, delimiter=",")
+import pandas as pd
 
+def get_toss_win_count(team):
+    df =pd.read_csv('data/ipl_matches_small.csv')
+    pv=df[df['toss_winner']==team].groupby('match_code')
+    variable=pv['toss_winner'].describe().count()[0].item()
+    return variable
 
-#Your Solution
 
