@@ -10,7 +10,7 @@ def get_wicket_delivery_numbers_array(player):
     for i,v in enumerate(ipl_matches_array):
         if ipl_matches_array[i][-3] == player.encode():
             #print(ipl_matches_array[i][11],ipl_matches_array[i][20])
-            delivery_list = np.append(delivery_list,ipl_matches_array[i][11])
+            delivery_list = np.append(delivery_list,ipl_matches_array[i][11].decode())
     return delivery_list
 
 get_wicket_delivery_numbers_array('SR Tendulkar')
