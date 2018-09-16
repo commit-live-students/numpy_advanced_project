@@ -5,12 +5,15 @@ ipl_matches_array =np.genfromtxt('data/ipl_matches_small.csv', dtype='|S50', ski
 
 
 #Your Solution
-def get_toss_win_count(team):
+def get_toss_win_count(team='Mumbai Indians'):
     
-    unique, counts = np.unique(ipl_matches_array[:,5], return_counts=True)
-    d=dict(zip(unique, counts))
+    arr=ipl_matches_array[:,[0,5]]
+    arr1=np.unique(arr,axis=0)
     
-    toss=d['Mumbai Indians']
+    unique,counts=np.unique(arr1[:,1],return_counts=True)
+    d=dict(zip(unique,counts))
+    
+    toss=d[team]
     
     return toss
     
