@@ -6,18 +6,19 @@ ipl_matches_array =np.genfromtxt('data/ipl_matches_small.csv', dtype='|S50', ski
 
 #Your Solution
 def get_toss_win_count(team):
-    toss_count = 0
-    for i,v in enumerate(ipl_matches_array):
-        if ipl_matches_array[i][5]==team:
-            #print(ipl_matches_array[i][6])
-            toss_count += 1
-    return toss_count
-    #print(ipl_matches_array[0,6])
+    
+    #Boolean indexing to store toss wins for MI.
+    MI_TossWin = ipl_matches_array[:,5]==team
+    
+    #getting unique toss wins based on match id as the value gets repeated per delivery.
+    unique_win_count = np.unique(ipl_matches_array[MI_TossWin,0])
+    
+    #returning the count.
+    return np.count_nonzero(unique_win_count)
     
 get_toss_win_count(b'Mumbai Indians')
 
-ipl_matches_array[0,5]
-ipl_matches_array[1,5]
+
 
 
 
