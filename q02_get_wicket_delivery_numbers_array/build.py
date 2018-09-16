@@ -6,17 +6,20 @@ ipl_matches_array =np.genfromtxt('data/ipl_matches_small.csv', dtype='|S50', ski
 
 #Your Solution
 def get_wicket_delivery_numbers_array(player):
-    delivery_list = np.array([])
-    for i,v in enumerate(ipl_matches_array):
-        if ipl_matches_array[i][-3] == player.encode():
-            #print(ipl_matches_array[i][11],ipl_matches_array[i][20])
-            delivery_list = np.append(delivery_list,ipl_matches_array[i][11].decode())
-    return delivery_list
+    
+    # We'll make use of boolean indexing to fetch the desired result.
+    # batsman_out would store all the row values which have to be fetched.
+    batsman_out = ipl_matches_array[:,-3]==player.encode()
+    
+    #As we have to fetch the delivery, we put 11 in the coulmn and batsman_out in row.
+    return ipl_matches_array[batsman_out,11].astype(float)
 
+
+#Call to the function - 
 get_wicket_delivery_numbers_array('SR Tendulkar')
 
 
-a=np.array([])
-print(a)
+
+
 
 
