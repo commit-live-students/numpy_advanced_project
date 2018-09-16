@@ -10,11 +10,11 @@ def get_total_deliveries_played(batsman):
     #Storing the column of batsman into a separate list
     batsman_list = ipl_matches_array[1:,13]
         
-    #Returning the count by making use of encode function as the data is unicode.
-    return np.count_nonzero(batsman_list==batsman.encode())
+    #Returning the count
+    return np.count_nonzero(batsman_list==batsman)
     
 #Call to the function.
-get_total_deliveries_played('SR Tendulkar')
+get_total_deliveries_played(b'SR Tendulkar')
 
 
 
