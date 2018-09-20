@@ -7,7 +7,7 @@ ipl_matches_array =np.genfromtxt('data/ipl_matches_small.csv', dtype='|S50', ski
 #Your Solution
 def create_runs_series(match_code):
     x=np.where(ipl_matches_array[:,0]==match_code)
-    z= ipl_matches_array[x]
+    z= ipl_matches_array[x] #create new array with only those of that match code
     return pd.Series(z[:,16],index=z[:,11])
 create_runs_series(b'392203')    
 
