@@ -6,10 +6,12 @@ ipl_matches_array =np.genfromtxt('data/ipl_matches_small.csv', dtype='|S50', ski
 
 #Your Solution
 def get_wicket_delivery_numbers_array(player):
-    over = ipl_matches_array[:,11].astype(np.unicode_)   
-    btsmn = ipl_matches_array[:,20].astype(np.unicode_)
+    #over = ipl_matches_array[:,11].astype(np.unicode_)
+    over = ipl_matches_array[:,11]
+    #btsmn = ipl_matches_array[:,20].astype(np.unicode_)
+    btsmn = ipl_matches_array[:,20]
     return over[(btsmn == player)]
     
-get_wicket_delivery_numbers_array('ST Jayasuriya')
+get_wicket_delivery_numbers_array(b'ST Jayasuriya')
 
 
