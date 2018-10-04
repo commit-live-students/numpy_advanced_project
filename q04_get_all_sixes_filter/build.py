@@ -6,10 +6,10 @@ ipl_matches_array =np.genfromtxt('data/ipl_matches_small.csv', dtype='|S50', ski
 
 #Your Solution
 def get_all_sixes_filter():
-    a = ipl_matches_array[:,16].astype(np.int16) 
-    b = np.array(filter(lambda x:x==6, a))
-    c = a==6
-    return c
+    a = ipl_matches_array[:,16].astype(np.int16) == 6
+
+    
+    return a
 get_all_sixes_filter()
 
 
