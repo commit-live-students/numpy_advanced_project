@@ -1,7 +1,17 @@
-#Default Imports
+#%load q05_create_delivery_series/build.py
 import pandas as pd
 import numpy as np
-ipl_matches_array =np.genfromtxt("data/ipl_matches_small.csv", dtype="|S50", skip_header=1, delimiter=",")
+path='./data/ipl_matches_small.csv'
+def create_delivery_series():
+    #df=pd.read_csv('./data/ipl_matches_small.csv')
+    
+    data=np.genfromtxt(path,delimiter=',',skip_header=1,dtype='|S20')
+    delivery=pd.Series(data[:,11])
+    
+ 
+    return delivery
 
-#Your Solution
+create_delivery_series()
+  
+
 
