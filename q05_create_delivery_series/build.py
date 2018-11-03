@@ -1,7 +1,11 @@
-#Default Imports
-import pandas as pd
+# %load q05_read_csv_data/build.py
+# Default imports
 import numpy as np
-ipl_matches_array =np.genfromtxt("data/ipl_matches_small.csv", dtype="|S50", skip_header=1, delimiter=",")
 
-#Your Solution
+def read_ipl_data_csv(path , dtype):
+    ipl_matches_array = np.genfromtxt(path , delimiter = ',', skip_header = 1 ,dtype = dtype)
+    return ipl_matches_array
+
+
+
 
