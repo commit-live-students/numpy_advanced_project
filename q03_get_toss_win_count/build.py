@@ -1,7 +1,12 @@
+# %load q03_get_toss_win_count/build.py
 #Default Imports
-import numpy as np
-ipl_matches_array =np.genfromtxt("data/ipl_matches_small.csv", dtype="|S50", skip_header=1, delimiter=",")
-
+from greyatomlib.numpy_advanced.q01_get_total_deliveries_players.build import ipl_matches_array
 
 #Your Solution
+def get_toss_win_count(team):
+    return len(set(ipl_matches_array[ipl_matches_array[:,5]==team][:,0]))
+
+
+get_toss_win_count(b'Mumbai Indians')
+
 
