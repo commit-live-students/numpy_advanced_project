@@ -5,5 +5,5 @@ from greyatomlib.numpy_advanced.q01_get_total_deliveries_players.build import ip
 
 #Your Solution
 def get_wicket_delivery_numbers_array(player):
-    deliveries = ipl_matches_array[:, 11:12]
-    return deliveries[ipl_matches_array[:, 20:21] == player]
+    return ipl_matches_array[ipl_matches_array[:,-3].astype(str) == player][:,11].astype(str)
+
