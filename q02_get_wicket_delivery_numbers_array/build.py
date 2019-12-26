@@ -1,7 +1,14 @@
-#Default Imports
+import pandas as pd
 import numpy as np
+def get_wicket_delivery_numbers_array(batsman):
+    ipl_matches_array = pd.read_csv('data/ipl_matches_small.csv')
+    delivery = ipl_matches_array['delivery']
+    bool_data_time = ipl_matches_array['player_out'] == batsman
+    nparr = delivery[bool_data_time].astype(np.str)
+    
+    return nparr
+get_wicket_delivery_numbers_array('ST Jayasuriya')
 
-ipl_matches_array =np.genfromtxt("data/ipl_matches_small.csv", dtype="|S50", skip_header=1, delimiter=",")
 
-#Your Solution
+
 
